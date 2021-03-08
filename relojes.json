@@ -1,0 +1,44 @@
+[
+    {
+        "price" : 12500,
+        "id" : 1,
+        "tittle" : "Gold Tier",
+        "thumbnailUrl" : "/imagesProyect/c1.webp"
+
+    },
+
+    {
+        "price" : 18250,
+        "id" : 2,
+        "tittle" : "New Sky",
+        "thumbnailUrl" : "imagesProyect/c2.webp"
+    },
+    {
+        "price" : 24000,
+        "id" : 3,
+        "tittle" : "Sweet Gold",
+        "thumbnailUrl" : "imagesProyect/c5.webp"
+    },
+    {
+        "price" : 7900,
+        "id" : 4,
+        "tittle" : "Green Ocean",
+        "thumbnailUrl" : "imagesProyect/c6.webp"
+    },
+    {
+        "price" : 9100,
+        "id" : 5,
+        "tittle" : "Ocean Blue",
+        "thumbnailUrl" : "imagesProyect/c4.webp"
+    },
+    {
+        "price" : 15200,
+        "id" : 6,
+        "tittle" : "Fine Silver",
+        "thumbnailUrl" : "imagesProyect/c3.webp"
+    }
+
+
+
+
+]

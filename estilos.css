@@ -1,0 +1,131 @@
+:root {
+    --color-rojo: #a20a0a;
+    --color-rojooscuro: #780808;
+    --color-rojo2:#91091e;
+}
+.c-precio {
+    background-color: var(--color-rojooscuro);
+}
+a {
+    color: inherit;
+}
+.navbar-brand > img {
+    width: 70px;
+}
+.navbar-main .active:hover {
+    color: var(--color-rojo)
+}
+.header-main {
+    padding-bottom: 120px;
+}
+.navbar-collapse {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 18px;
+}
+.titulo {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.titulo > p {
+    color: var(--color-rojo);
+}
+.card-body h5 p {
+    font-family: 'Cormorant Garamond', serif;
+}
+.titulo-productos {
+     font-family: 'Cormorant Garamond', serif;
+     color: var(--color-rojo);
+     font-size: 60px;
+}
+.inner {
+    overflow: hidden;
+}
+.card img {
+    transition: all 1.5s ease;
+}
+.card:hover img{
+    transform: scale(1.1);
+}
+.btn-buy {
+    background-color: #4E4E4E;
+    color:white;
+}
+.cont-targetas {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 15px;
+}
+.about-us-general{
+    background-image:url(/imagesProyect/fondo12.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;  
+}
+.loginyregister {
+    font-family: 'Shippori Mincho', serif;
+    font-size: 20px;
+}
+.loginwithface {
+    font-size: 20px;
+}
+
+.footer2 {
+    background-color:var(--color-rojo2);
+    font-family: 'Shippori Mincho', serif;
+    font-size: 20px;
+}
+.footer2p {
+    font-size: 18px;
+    font-family: 'Shippori Mincho', serif;
+}
+@media (max-width: 767px ){
+    .esto{
+        display: none;
+    }
+}
+@media (min-width: 992px ){
+    .esto {
+        width:300px;
+        display:block;
+        float:center;		
+    }
+}
+@media (min-width: 992px ){
+    .imagen-principal {
+        width:300px;       
+    }
+}
+@media (min-width: 1200px ){
+    .esto {
+        width:300px;
+        display:block;
+        float:center;		
+    }
+}
+@media (min-width: 1200px ){
+    .imagen-principal {
+        width:300px;      
+    }
+}
+@media (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }
+}
+@media (max-width: 767px){
+    .nav{
+        justify-content: space-around;               
+    }
+}
+@media (max-width: 767px){
+    .imagen-2{
+        width: 300px;               
+    }
+}
+@media (max-width: 358px){
+    .gender1{
+        color: red;
+    }
+}
